@@ -10,27 +10,33 @@ This project provides an exploratory data analysis (EDA) of **The Ohio State Uni
 2. [About the Dataset](#2-about-the-dataset)
 3. [Load the Dataset](#3-load-the-dataset)
 4. [Overview of the Dataset](#4-overview-of-the-dataset)
-5. [Analyze Object Data](#5-analyze-object-data)
-    - 5.1 Analyze frequencies/percentages of some data
-        - 5.1.1 Gender
-        - 5.1.2 Position Groups
-    - 5.2 Gender and Position Groups
-6. [Analyze Numerical Data](#6-analyze-numerical-data)
-    - 6.1 Overview
-        - 6.1.1 Observations
-    - 6.2 Highest Paying Jobs
-    - 6.3 Gross Pay Categories Distribution
-    - 6.4 Gender and Gross Pay
-        - 6.4.1 Mean Gross Pay by Gender
-        - 6.4.2 Gross Pay Brackets by Gender
-        - 6.4.3 Mean Gross Pay by Gender and Position Group
-7. [Outliers](#7-outliers)
-    - 7.1 Skewness and Kurtosis
-    - 7.2 Correlation
-    - 7.3 Bivariate Outliers: Gross Pay and Regular Pay
-        - 7.3.1 Observations
-        - 7.4 Using Isolation Forest to Find Outliers
-8. [Models](#8-models)
+5. [Presence of negative values](#5-presence-of-negative-values)
+   - 5.1 Possible explanations
+   - 5.2 Compare to data from other university
+6. [Analyze Object Data](#6-analyze-object-data)
+    - 6.1 Analyze frequencies/percentages of some data
+        - 6.1.1 Gender
+        - 6.1.2 Position Groups
+    - 6.2 Gender and Position Groups
+7. [Analyze Numerical Data](#7-analyze-numerical-data)
+    - 7.1 Overview
+        - 7.1.1 Visualizations of Distributions
+        - 7.1.2 Observations
+    - 7.2 Highest Paying Jobs
+    - 7.3 Gross Pay Categories Distribution
+    - 7.4 Gross Pay by Position Group
+        - 7.4.1 Mean and Median Gross Pay by Position Group
+        - 7.4.2 Mean and Median Gross Pay by Gender and Position Group
+    - 7.5 Gross Pay and Gender
+        - 7.5.1 Mean Gross Pay by Gender
+        - 7.5.2 Gross Pay Categories by Gender
+8. [Outliers](#8-outliers)
+    - 8.1 Skewness and Kurtosis
+    - 8.2 Correlation
+    - 8.3 Bivariate Outliers: Gross Pay and Regular Pay
+        - 8.3.1 Observations
+    - 8.4 Using Isolation Forest to Find Outliers
+9. [Models](#9-models)
 
 ## 1. Import Necessary Libraries
 
