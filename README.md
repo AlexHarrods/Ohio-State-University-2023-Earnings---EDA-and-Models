@@ -1,35 +1,39 @@
+Here's the text revised using "I":
+
+---
+
 # Ohio State University 2023 Earnings - EDA and Models
 
 ## Overview
 
-This project provides an exploratory data analysis (EDA) of **The Ohio State University 2023 Combined Earnings** dataset. It explores the structure of the data, investigates object and numerical variables, and delves into gender pay gap analysis through various visualizations and statistical techniques. This repository includes not only the EDA but also model implementations to identify outliers and patterns in the earnings data.
+In this project, I conduct an exploratory data analysis (EDA) of **The Ohio State University 2023 Combined Earnings** dataset. I examine the structure of the data, investigate both categorical and numerical variables, and explore the gender pay gap through various visualizations and statistical techniques. This repository includes not only my EDA but also model implementations to identify outliers and detect patterns in earnings data.
 
 ## About the Dataset
-The **Ohio State University 2023 Combined Earnings** dataset provides salary and position information for faculty and staff. The data has fields such as gender, position group, gross pay, and more. The analysis focuses on identifying patterns, such as gender pay disparities and position-related pay trends.
 
-## Analyze Object Data
+The **Ohio State University 2023 Combined Earnings** dataset includes salary and position information for faculty and staff, with fields like gender, position group, and gross pay. My analysis focuses on identifying patterns, such as gender pay disparities and position-related pay trends.
 
-We start by analyzing the categorical variables, focusing on the distribution of **gender** and **position groups**. The goal is to understand how evenly these variables are represented in the dataset. Then we explore how gender distribution varies across different position groups. We generate visualizations to uncover any observable trends or imbalances.
+## Analyzing Categorical Data
 
-## Analyze Numerical Data
+I begin by analyzing the categorical variables, particularly the distributions of **gender** and **position groups**. My goal is to understand the representation of these categories across the dataset. I also explore gender distribution within different position groups, generating visualizations to reveal trends or imbalances.
 
-We provide a detailed summary of the numerical variables in the dataset, focusing on gross pay and related earnings fields. Then we identify the top-paying jobs at Ohio State University, and evaluate how these earnings are distributed across various factors like gender and position.
+## Analyzing Numerical Data
 
-Gross pay is categorized into meaningful brackets, allowing us to observe the distribution of earnings across different groups. We calculate the **mean gross pay** by gender, evaluate **pay brackets by gender**, and look at the interaction between **gender, gross pay, and position groups**.
+Next, I provide a detailed summary of the numerical variables, focusing on gross pay and related earnings fields. I identify the highest-paying jobs at Ohio State University and analyze how earnings are distributed by factors like gender and position.
 
-## Outliers
+I categorize gross pay into meaningful brackets to observe earnings distribution across various groups. Additionally, I calculate the **mean gross pay** by gender, analyze **pay brackets by gender**, and examine the interaction between **gender, gross pay, and position groups**.
 
-We analyze boxplots and assess the skewness and kurtosis of the dataset to understand the distribution of the numerical variables. Correlation analysis is conducted to identify the relationships between key numerical variables like gross pay, regular pay, and position groups.
+## Outlier Detection
 
-We explore bivariate outliers by plotting **gross pay** against **regular pay** to identify any data points that deviate significantly from the general trend.
+To understand the distribution of numerical variables, I analyze boxplots and assess skewness and kurtosis. I conduct correlation analysis to explore relationships between variables like gross pay, regular pay, and position groups.
 
-To automate the detection of outliers, we implement the **Isolation Forest** algorithm, highlighting potential anomalies in the dataset.
+I investigate bivariate outliers by plotting **gross pay** against **regular pay** to find data points that significantly deviate from the general trend. To automate outlier detection, I use the **Isolation Forest** algorithm, which highlights potential anomalies in the dataset.
 
-## Models
+## Modeling
 
-This section will feature regression models used to gain further insights from the data and see how different algorithms deal with outliers.
+In this section, I implement regression models to gain further insights from the data and evaluate how different algorithms handle outliers.
 
 ---
 
 ## Conclusion
-The analysis highlights key findings about the pay structure at Ohio State University, with a focus on understanding gender pay disparities. The project uses both traditional EDA techniques and machine learning algorithms to provide a comprehensive analysis of the dataset.
+
+My analysis uncovers key insights into the pay structure at Ohio State University, particularly around gender pay disparities. By combining traditional EDA techniques with machine learning algorithms, I provide a comprehensive analysis of the dataset.
