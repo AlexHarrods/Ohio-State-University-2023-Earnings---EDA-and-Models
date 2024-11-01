@@ -1,7 +1,3 @@
-Here's the text revised using "I":
-
----
-
 # Ohio State University 2023 Earnings - EDA and Models
 
 ## Overview
